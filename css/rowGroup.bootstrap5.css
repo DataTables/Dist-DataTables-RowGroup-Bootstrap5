@@ -38,16 +38,21 @@ table.dataTable tr.dtrg-group.dtrg-level-5 td {
   padding-left: 4em;
 }
 
-table.dataTable.table-striped tr.dtrg-level-0 td {
-  background-color: #e0e0e0 !important;
+table.dataTable.table-striped tr.dtrg-level-0 {
+  background-color: #e0e0e0;
 }
-table.dataTable.table-striped tr.dtrg-level-1 td {
-  background-color: #f0f0f0 !important;
+table.dataTable.table-striped tr.dtrg-level-1 {
+  background-color: #f0f0f0;
 }
-table.dataTable.table-striped tr.odd {
-  background-color: #f9f9f9 !important;
+table.dataTable.table-striped tr.dtrg-level-2,
+table.dataTable.table-striped tr.dtrg-level-3,
+table.dataTable.table-striped tr.dtrg-level-4,
+table.dataTable.table-striped tr.dtrg-level-5 {
+  background-color: #f3f3f3;
 }
-
-.table-striped > tbody > tr:nth-of-type(odd) {
-  --bs-table-accent-bg: none !important;
+table.dataTable.table-striped tr.dtrg-level-1 tr.dtrg-level-2 td,
+table.dataTable.table-striped tr.dtrg-level-3 td,
+table.dataTable.table-striped tr.dtrg-level-4 td,
+table.dataTable.table-striped tr.dtrg-level-5 td {
+  background-color: transparent;
 }
