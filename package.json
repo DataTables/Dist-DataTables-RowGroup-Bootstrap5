@@ -2,12 +2,14 @@
     "name": "datatables.net-rowgroup-bs5",
     "description": "RowGroup for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
     "main": "js/rowGroup.bootstrap5.js",
+    "module": "js/rowGroup.bootstrap5.mjs",
     "style": "css/rowGroup.bootstrap5.css",
     "types": "./types/rowGroup.bootstrap5.d.ts",
     "version": "1.2.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
