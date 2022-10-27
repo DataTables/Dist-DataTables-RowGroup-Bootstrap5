@@ -10,7 +10,8 @@
         "css/rowGroup.bootstrap5.min.css"
     ],
     "types": [
-        "types/rowGroup.bootstrap5.d.ts"
+        "types/rowGroup.bootstrap5.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/RowGroup",
     "last-tag": "1.2.0"
